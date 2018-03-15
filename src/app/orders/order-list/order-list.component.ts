@@ -2,8 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'bi-order-list',
-  templateUrl: './order-list.component.html',
-  styleUrls: ['./order-list.component.css']
+  template: `
+    <p>
+      order-list works!
+    </p>
+  `,
 })
 export class OrderListComponent implements OnInit {
 
